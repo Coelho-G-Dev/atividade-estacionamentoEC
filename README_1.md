@@ -191,7 +191,7 @@ flowchart TD
 
 ---
 
-## 🧪 Exemplo de Entrada e Saída
+## 🧪 Exemplos de Entrada e Saída
 
 ### Exemplo 1 — Carro, 3 horas (sem desconto, sem multa)
 
@@ -222,8 +222,95 @@ VALOR FINAL      : R$ 15.00
 Observacao: Permanencia normal. Obrigado pela preferencia!
 ```
 
+### Exemplo 2 — Moto, 0,5 hora (cobra mínimo de 1 hora)
+
+**Entrada:**
+```
+XYZ9988
+2
+0.5
+```
+
+**Saída:**
+```
+============================================
+             COMPROVANTE DE SAIDA
+============================================
+Placa            : XYZ9988
+Tipo de veiculo  : Moto
+Tarifa por hora  : R$ 3.00
+Tempo registrado : 0.50 h
+Horas cobradas   : 1.00 h
+--------------------------------------------
+Valor base       : R$ 3.00
+Desconto         : Nao aplicavel
+Multa            : Nao aplicavel
+--------------------------------------------
+VALOR FINAL      : R$ 3.00
+============================================
+Observacao: Permanencia normal. Obrigado pela preferencia!
+```
+
+### Exemplo 3 — Caminhonete, 7 horas (desconto de 10%)
+
+**Entrada:**
+```
+DEF5678
+3
+7
+```
+
+**Saída:**
+```
+============================================
+             COMPROVANTE DE SAIDA
+============================================
+Placa            : DEF5678
+Tipo de veiculo  : Camionete
+Tarifa por hora  : R$ 8.00
+Tempo registrado : 7.00 h
+Horas cobradas   : 7.00 h
+--------------------------------------------
+Valor base       : R$ 56.00
+Desconto (10%)   : -R$ 5.60
+Multa            : Nao aplicavel
+--------------------------------------------
+VALOR FINAL      : R$ 50.40
+============================================
+Observacao: Permanencia longa. Desconto de 10% aplicado!
+```
+
+### Exemplo 4 — Carro, 12 horas (desconto + multa)
+
+**Entrada:**
+```
+GHI4321
+1
+12
+```
+
+**Saída:**
+```
+============================================
+             COMPROVANTE DE SAIDA
+============================================
+Placa            : GHI4321
+Tipo de veiculo  : Carro
+Tarifa por hora  : R$ 5.00
+Tempo registrado : 12.00 h
+Horas cobradas   : 12.00 h
+--------------------------------------------
+Valor base       : R$ 60.00
+Desconto (10%)   : -R$ 6.00
+Multa (>10h)     : +R$ 20.00
+--------------------------------------------
+VALOR FINAL      : R$ 74.00
+============================================
+Observacao: Permanencia superior a 10h. Desconto + multa aplicados.
+```
+
 ---
 
 ## 📄 Licença
 
-Projeto acadêmico desenvolvido para a disciplina de Laboratório de Programação — BICT, UFMA. Prof. Rondineli Seba Salomão. Uso livre para fins educacionais.
+Projeto acadêmico desenvolvido para a disciplina de Laboratório de Programação — Engenharia da Computação, UFMA. Prof. Rondineli Seba Salomão. Uso livre para fins educacionais.
