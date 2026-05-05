@@ -35,9 +35,21 @@ atividade-estacionamentoEC/
     git clone https://github.com/seuusuario/seurepositorio.git
     cd atividade-estacionamentoEC
     ```
+2.Acesse a pasta do projeto
+    ```
+    cd atividade-estacionamentoEC
+    ```
 
-2. Compile o programa com GCC:
-    ```bash
+3.Verifique a presença do arquivo main.c
+    
+    #Linux/macOS
+    1s
+
+    #Windows
+    dir
+
+4. Compile o programa com GCC, certifique-se de que o GCC está instalado (no Windows, use MinGW ou similar):
+    ```
     # Linux / macOS
     gcc -o estacionamento main.c
 
@@ -45,8 +57,8 @@ atividade-estacionamentoEC/
     gcc -o estacionamento.exe main.c
     ```
 
-3. Execute o programa:
-    ```bash
+5. Execute o programa:
+    ```
     # Linux / macOS
     ./estacionamento
 
