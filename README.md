@@ -12,7 +12,7 @@ Este projeto implementa um sistema de estacionamento rotativo em linguagem C, co
 - 🏷️ Desconto automático de 10% para permanências acima de 5 horas
 - 🚨 Multa adicional de R$ 20,00 para permanências acima de 10 horas
 - 🧾 Emissão de comprovante detalhado com todos os valores
-- ✅ Uso correto de `switch-case` para seleção de tipo de veículo e categoria de permanência
+- ✅ Uso de `switch-case` para seleção de tipo de veículo e categoria de permanência
 - 🛡️ Validação de tipo de veículo com tratamento de entrada inválida
 
 ---
