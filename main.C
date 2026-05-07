@@ -21,7 +21,7 @@ int main() {
     switch(tipo) {
         case 1:
             tarifa = 5.00;
-            strcpy(tipoTexto, "Carro"); // Em C, usamos strcpy para atribuir texto a arrays de char
+            strcpy(tipoTexto, "Carro");
             break;
         case 2:
             tarifa = 3.00;

@@ -239,3 +239,9 @@ Observacao: Permanencia normal. Obrigado pela preferencia!
 ## 📄 Licença
 
 Projeto acadêmico desenvolvido para a disciplina de Laboratório de Programação — BICT, UFMA. Prof. Rondineli Seba Salomão. Uso livre para fins educacionais.
+
+Desenvolvido Pelos Discentes :
+
+Gabriel Coelho Sousa.</br>
+Paulo Vinicius Câmara Pereira.</br>
+Lohanna de Vasconcelos Floriano.
